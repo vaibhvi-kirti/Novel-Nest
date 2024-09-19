@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup Page</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <div>
+    <h1>Sign Up</h1>
+    <form action="#">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required><br>
+      
+      <div class="gender-section">
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" >
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="others">
+        <label for="others">Others</label>
+      </div>
+      
+      <label for="dob">Date Of Birth:</label>
+      <input type="date" id="dob" required><br>
+      
+      <label for="phone">Phone No.:</label>
+      <input type="tel" name="phone" id="phn" pattern="[0-9]{10}" required placeholder="Enter your phone number(10 digits)"><br>
+      
+      <label for="email">E-Mail:</label>
+      <input type="email" name="email" id="email" pattern="+@example.com" required placeholder="Enter your email"><br>
+      
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </div>
+</body>
+</html>
