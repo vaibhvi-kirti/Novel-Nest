@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+header {
+  height: 80px;
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  border-bottom: 1px solid #b6b1b1;
+  align-items: center;
+
+}
+.actionBar {
+  margin-right: 4%;
+  display: flex;
+  min-width: 200px;
+  justify-content: space-evenly;
+}
+
+.action_container {
+  color: #d8dbde;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Nav_Bar {
+  display: flex;
+  min-width: 500px;
+  justify-content: space-evenly;
+}
+
+.Nav_Bar a:hover {
+  color: #4c4d50;
+  font-size:larger;
+}
+
+.Nav_Bar a {
+  font-family:Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #cfd0d3;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 28px 0;
+}
+
+.searchbar {
+  height: 40px;
+  min-width: 400px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.search_icon {
+  height: 40px;
+  padding: 10px;
+  background-color: #f5f5f6;
+  color: #282c3f;
+  font-weight: 300;
+  border-radius: 4px 0 0 4px;
+}
+
+.search_input {
+  background-color: #f5f5f6;
+  color: #4c4d50;
+  flex-grow: 1;
+  height: 40px;
+  border: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+
+.mLogo {
+  height: 60px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.banner {
+  margin: 40px 0;
+}
+
+.BannerImage {
+  width: 100%;
+}
+
+.categoryh {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: 0.15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+
+.category_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.saleitem {
+  width: 247px;
+}
+
+.footercontainer {
+  padding: 30px 0 40px 0;
+  background-color: #fafbfc;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_col a {
+  color: #696b79;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.footer_col h3 {
+  color: #282c3f;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+hr {
+  border: 0.5px solid #b6b1b1;
+}
+
+.copyright {
+  color: #94969f;
+  text-align: end;
+  padding: 15px;
+}
